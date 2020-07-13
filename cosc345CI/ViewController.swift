@@ -14,6 +14,7 @@ public class ViewController: UIViewController {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 	}
+
 	/**
 		Multiple function exmaple (x * y)
 		- Parameters:
@@ -25,7 +26,6 @@ public class ViewController: UIViewController {
 		{
 		return x * y
 		}
-
 
 }
 
