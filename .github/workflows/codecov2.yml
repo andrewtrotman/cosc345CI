@@ -1,4 +1,4 @@
-name: CodeCov2
+name: CodeCov
 
 on:
   push:
