@@ -14,5 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Xcode build test
-      run: xcodebuild clean test -project cosc345CI.xcodeproj -scheme cosc345CI -destination "platform=iOS Simulator,name=iPhone 11 Pro" -enableCodeCoverage YES | xcpretty -c
-      run: bash <(curl -s https://codecov.io/bash)
+      run: |
+        xcodebuild clean test -project cosc345CI.xcodeproj -scheme cosc345CI -destination "platform=iOS Simulator,name=iPhone 11 Pro" -enableCodeCoverage YES | xcpretty -c
+        bash <(curl -s https://codecov.io/bash)
