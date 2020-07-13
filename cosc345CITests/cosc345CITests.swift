@@ -24,7 +24,6 @@ class cosc345CITests: XCTestCase {
 		  XCTAssert(ViewController.mymethod(x: 5, y: 5) == 25, "Not Good");
     }
 
-
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
