@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Xcode build test
-      run: xcodebuild clean test -project 345CI.xcodeproj -scheme 345CI -destination "platform=iOS Simulator,name=iPhone 11 Pro"
+      run: xcodebuild clean test -project cosc345CI.xcodeproj -scheme cosc345CI -destination "platform=iOS Simulator,name=iPhone 11 Pro" 
